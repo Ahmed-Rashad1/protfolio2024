@@ -1,0 +1,20 @@
+[
+  {
+    "year": "3/2024  -  present",
+    "companyName": "Mega Shoes",
+    "jobTitle": "Full Stack Developer (MERN)",
+    "desc": "worked on several projects, including the development of an ERP system to manage product status and the order cycle. I utilized the MERN stack technologies (MongoDB, Express.js, React.js, and Node.js) to build this system."
+  },
+  {
+    "year": "7/2022  -  present",
+    "companyName": "Vlaby Company",
+    "jobTitle": "Front-end Developer (reactJS)",
+    "desc": "worked on the development of the Vlaby website, added some features, and created and deployed experiments on the website."
+  },
+  {
+    "year": "5/2021  -  7/2021",
+    "companyName": "MTN Company",
+    "jobTitle": "Front-end trainee (reactJS)",
+    "desc": "Through extensive front-end web development experience across numerous company projects, I have become a highly skilled and confident designer and implementer of visually appealing, responsive, and interactive user experiences for exceptional customer-facing web applications."
+  }
+]
