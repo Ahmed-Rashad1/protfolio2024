@@ -23,12 +23,12 @@ const Home = () => {
                 <h1 className="text-[#1d2cff] text-3xl xl:text-5xl leading-[1.1] font-semibold tracking-tight" >
                 <TypeAnimation
                 sequence={[
-                  "Frontend Developer",
+                  "Front-End Developer",
                 ]}
-                speed={200}
+                speed={400}
                 />
                 </h1>
-              <p className="max-w-[650px] my-6 text-gray-400 text-base xl:text-lg">As an experienced Frontend Developer with over two years of expertise, I specialize in JavaScript development and possess a robust skillset encompassing technologies such as TypeScript, React.js, Redux, Next.js, and Node.js. I have a proven track record of delivering high-quality solutions using frameworks and tools, including mongoDB, AWS, CSS3, Sass, Tailwind, Bootstrap, Material UI, and HTML5, and have consistently contributed to the development of innovative and impactful software applications.</p>
+              <p className="max-w-[650px] my-6 text-gray-400 text-base xl:text-lg">As an experienced Front-End Developer with over two years of expertise, I specialize in JavaScript development and possess a robust skillset encompassing technologies such as TypeScript, React.js, Redux, Next.js, and Node.js. I have a proven track record of delivering high-quality solutions using frameworks and tools, including mongoDB, AWS, CSS3, Sass, Tailwind, Bootstrap, Material UI, and HTML5, and have consistently contributed to the development of innovative and impactful software applications.</p>
               <div className="w-full flex flex-col justify-center items-center xl:items-start">
                 <div className=" flex justify-center items-center gap-9 xl:gap-9 xl:justify-start">
                   <a href="https://wa.me/+201095353364" target="_blank" className="w-12 h-12 text-2xl flex justify-center items-center bg-inherit border border-gray-500 rounded-full text-white/50 hover:bg-gradient-to-r from-[#0814a1] via-[#0a3e6c] to-[#430767] hover:text-white active:scale-95 duration-300" rel="noreferrer">

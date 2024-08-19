@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { images } from "../../constants";
-import ReactTooltip from "react-tooltip";
+// import ReactTooltip from "react-tooltip";
 
 const Projects = () => {
   const [works, setWorks] = useState(images.myworks);
@@ -13,82 +13,6 @@ const Projects = () => {
 
   const worksCategory = ["All", "React JS", "Next JS", "UI/UX", "Simple App"];
 
-  //   const myworks = [
-  //     {
-  //       name:"Digital Shop",
-  //       imgUrl: "digital_shop",
-  //       description: "elctronics online shopping with filtering by category, company name and others, it made by nextJS, tailwindCSS and javaScript",
-  //       codeLink: "https://github.com/a7med-rashad/Digital_Shop",
-  //       projectLink:"https://digital-shop-mu.vercel.app/",
-  //       tags: "Next JS"
-  //     },
-  //     {
-  //       name:"City Restaurant",
-  //       imgUrl: "city_restaurant",
-  //       description: "online restaurant to order the fast food and dessert it made by reactJS, tailwindCSS and javaScript",
-  //       codeLink: "https://github.com/a7med-rashad/restaurant-app",
-  //       projectLink:"https://restaurant-app-123.netlify.app/",
-  //       tags: "React JS"
-  //     },
-  //     {
-  //       name:"Go Shopping",
-  //       imgUrl: "go_shopping",
-  //       description: "store your products online with this E-commerce website, it made by reactJs, redux, css, javaScript",
-  //       codeLink: "https://github.com/a7med-rashad/shopping-website",
-  //       projectLink:"https://chic-syrniki-2ae39a.netlify.app/",
-  //       tags: "React JS"
-  //     },
-  //     {
-  //     name:"koldair project",
-  //     imgUrl: "koldair",
-  //     description: "its a simple website to appear the company products and features, it made by html, css, javaScript",
-  //     codeLink: "https://github.com/a7med-rashad/koldair",
-  //     projectLink:"https://a7med-rashad.github.io/koldair/",
-  //     tags: "Simple App"
-  //   },
-  //     {
-  //     name:"Adventure Awaits",
-  //     imgUrl: "adventure",
-  //     description: "simple website to training on reactJs library and make single page application, it made by reactJS, css, javaScript",
-  //     codeLink: "https://github.com/a7med-rashad/react-website",
-  //     projectLink:"https://wonderful-centaur-b04088.netlify.app/",
-  //     tags: "React JS"
-  //   },
-  //   {
-  //     name:"Todo App",
-  //     imgUrl: "todo",
-  //     description: "todo application to save tasks and check it, it made by html, css, javaScript",
-  //     codeLink: "https://github.com/a7med-rashad/App_Product",
-  //     projectLink:"https://a7med-rashad.github.io/App_Product/",
-  //     tags: "Simple App"
-  //   },
-  //     {
-  //     name:"Special Design",
-  //     imgUrl: "special_design",
-  //     description: "simple template website to appear the company products and features, it made by html, css, javaScript",
-  //     codeLink: "https://github.com/a7med-rashad/special-design",
-  //     projectLink:"https://a7med-rashad.github.io/special-design/",
-  //     tags: "UI/UX"
-  //   },
-
-  //     {
-  //       name:"kasper design",
-  //       imgUrl: "kasper",
-  //       description: "simple template landing page to appear your works, it made by html, css",
-  //       codeLink: "https://github.com/a7med-rashad/Kasper-design-",
-  //       projectLink:"https://a7med-rashad.github.io/Kasper-design-/",
-  //       tags: "UI/UX"
-  //     },
-  //     {
-  //     name:"leon design",
-  //     imgUrl: "leon",
-  //     description: "simple template landing page to appear your works, it made by html, css",
-  //     codeLink: "https://github.com/a7med-rashad/new_branch2",
-  //     projectLink:"https://a7med-rashad.github.io/new_branch2/",
-  //     tags: "UI/UX"
-  //   },
-
-  // ]
   // useEffect(() => {
   //   // fetch("https://products-api-flame.vercel.app/links/")
   //   fetch("myworks.json")
