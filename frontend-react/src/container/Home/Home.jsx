@@ -5,7 +5,7 @@ import { IoLogoWhatsapp } from "react-icons/io";
 import { SiGmail } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import mycv from '../../assets/cv.pdf'
+import mycv from '../../assets/Ahmed-Rashad-Resume.pdf'
 import { images } from "../../constants";
 import {TypeAnimation} from 'react-type-animation'
 
