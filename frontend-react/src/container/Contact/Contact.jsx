@@ -7,7 +7,7 @@ const Contact = () => {
   const [state, handleSubmit] = useForm("movawjkq");
   return (
     <section
-      className="xl:min-h-[90vh] border-t-[1px] border-[#ffffff2e] py-20"
+      className="border-t-[1px] border-[#ffffff2e] py-20"
       id="contact"
     >
       <div className="container mx-auto px-10 xl:px-32 h-full">

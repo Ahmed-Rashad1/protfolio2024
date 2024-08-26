@@ -52,14 +52,14 @@ const Skills = () => {
             </div>
           </motion.div>
           <motion.div className="flex-1 flex justify-center xl:justify-start items-start">
-            <div className="flex flex-col justify-start items-start gap-20">
+            <div className="flex flex-col justify-start items-start gap-20 mt-4">
               {experience.map((experience) => (
                 <motion.div
-                  className="w-full flex flex-row justify-start items-center mt-4"
+                  className="w-full flex flex-row justify-start items-center"
                   key={experience.year}
                 >
-                  <div className="me-12">
-                    <p className="font-bold text-white/60 text-nowrap">
+                  <div className="me-4 sm:me-12 ms-12 sm:ms-0">
+                    <p className="font-bold text-white/60 text-nowrap text-sm sm:text-base">
                       {experience.year}
                     </p>
                   </div>
@@ -69,10 +69,10 @@ const Skills = () => {
                       whileInView={{ opacity: [0, 1] }}
                       transition={{ duration: 0.5 }}
                     >
-                      <p className=" text-2xl font-bold text-white/80">
+                      <p className=" text-lg sm:text-2xl font-bold text-white/80 text-nowrap">
                         {experience.companyName}
                       </p>
-                      <h4 className="text-white/70 text-base ">
+                      <h4 className="text-white/70 text-sm sm:text-base text-nowrap">
                         {experience.jobTitle}
                       </h4>
                       <div className="text-white/40 text-sm max-w-72">{experience.desc}</div>
